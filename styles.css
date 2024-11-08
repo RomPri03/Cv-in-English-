@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+#ligne-verticale {
+  width: 100px; /* Ajustez l'épaisseur de la ligne */
+  height: 100%; /* Pour qu'elle s'étende sur toute la hauteur de son conteneur parent */
+  color: #160404; /* Couleur de la ligne */
+  margin: 20px; /* Marges pour l'espacer du contenu */
+  left: 50px;
+}
+.code-container {
+  width: 26cm;
+  height: 54cm;
+  margin: 1cm;
+  font-family: monospace;
+  background-color: #f0f0f0;
+  text-align: center;
+  
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 3px;
+  
+}
+
+.image-superposee {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 300px; /* Ajustez la largeur de l'image */
+    padding: 5%;
+    color:white;
+ 
+
+}
+
+header h1 {
+  font-size: 24px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#profile ul li {
+  margin-bottom: 20px;
+}
+
+#competences ul li {
+  margin-bottom: 10px;
+}
+
+#langues ul li {
+  margin-bottom: 10px;
+}
+
+#loisirs ul li {
+  margin-bottom: 10px;
+}
+
+#experiences ul li {
+  margin-bottom: 20px;
+}
+
+#formations ul li {
+  margin-bottom: 20px;
+}
+
+#gauche{
+  float: left; 
+  border-right: 2px solid rgb(0, 0, 0); 
+}
+
+
+#droite{
+  float: inherit;
+}
+
+
+h2{
+  background-color: black;
+  display:inline-table;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
